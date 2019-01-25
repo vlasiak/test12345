@@ -10,9 +10,9 @@ Gem::Specification.new do |spec|
   spec.email         = ["vasyl.lasiak@thelevelup.com"]
   spec.summary       = 'Test 12345'
   spec.homepage      = 'https://github.com/vlasiak/test12345'
-  spec.metadata = {
-    'allowed_push_host' => 'https://gem.fury.io/vlasiak'
-  }
+  # spec.metadata = {
+    # 'allowed_push_host' => 'https://gem.fury.io/vlasiak'
+  # }
 
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
